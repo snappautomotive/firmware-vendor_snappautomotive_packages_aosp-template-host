@@ -5,6 +5,8 @@ include $(CLEAR_VARS)
 LOCAL_MODULE_TAGS := optional
 
 LOCAL_MODULE := aosp-template-host
+ 
+LOCAL_PROPRIETARY_MODULE := true
 
 LOCAL_SRC_FILES := aosp-template-host.apk
 
